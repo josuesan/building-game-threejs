@@ -9,7 +9,7 @@ class BoxCreator extends Mesh {
       color,
       flatShading: true,
       roughness: .15,
-      // map: loader.load('https://josuesan.github.io/building-game-threejs/assets/textures/wood.jpg')
+      map: loader.load('https://josuesan.github.io/building-game-threejs/assets/textures/wood.jpg')
 
     });
     this.material.color.convertSRGBToLinear();
