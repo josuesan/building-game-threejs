@@ -1,0 +1,65 @@
+@font-face {
+	font-family: "Bebas";
+	src: url("./BebasNeue-Regular.ttf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Bebas";
+}
+
+body {
+	background-color: darkslategray;
+}
+
+#game-container {
+	width: 100%;
+	height: 100vh;
+}
+
+/* Fix mozilla error */
+canvas {
+	display: block;
+}
+
+#points,
+#gameover,
+#btn-start {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	font-size: 4rem;
+	color: #5f0f40;
+}
+
+#points {
+	top: -20%;
+	font-weight: bold;
+	font-size: 5rem;
+}
+#btn-start {
+	top: -35%;
+}
+#gameover {
+	top: -35%;
+}
+
+#btn-start button {
+	padding: 10px 20px;
+	background: none;
+	cursor: pointer;
+	border: 3px solid #9a031e;
+	border-radius: 3px;
+	color: #5f0f40;
+	font-size: 3rem;
+}
+
+#btn-start button:hover {
+	color: white;
+	background-color: #5f0f40;
+}
+
+.no-select {
+	user-select: none;
+}
